@@ -67,6 +67,12 @@
         flex-direction: column;
         gap: 0;
 
+        &__helper{
+            font-size: .9rem;
+            opacity: .8;
+            padding-bottom: 2rem;
+        }
+
         img{
             display: none;
         }

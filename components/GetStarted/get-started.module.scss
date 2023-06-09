@@ -108,7 +108,7 @@
 // Media Queries 
 @include phone {
     .start{
-        padding: 0 0rem !important;
+        padding: 0 .5rem !important;
         margin-top: 3rem !important;
         &__content{
             padding: 0 !important;
@@ -131,6 +131,7 @@
                 padding-bottom: 2.5rem !important;
                 &__item{
                     padding: 1rem 0;
+                    padding-bottom: 1.5rem;
                     &__iconholder{
                         gap: 20px;
                         &__icon{

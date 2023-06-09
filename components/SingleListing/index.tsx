@@ -13,7 +13,7 @@ const SingleListing: React.FC<cardProps> = ({
     <div className={ styles["single__listing"] }>
         <div className={ styles["single__listing__img"] }>
         <div className={ styles["single__listing__img--overlay"] }></div>
-            <Image src={ image } height={ 380 } width={ 380 } alt="listing thumbnail" />
+            <Image src={ image } height={ 400 } width={ 400 } alt="listing thumbnail" />
             <div className={ styles["single__listing__img__text"] }>
             <h4>{ title }</h4>
         </div>

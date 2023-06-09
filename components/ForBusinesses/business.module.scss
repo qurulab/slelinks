@@ -31,7 +31,7 @@
 // Media Queries 
 @include phone {
     .businesses{
-        padding: 0 !important;
+        padding: 0 .5rem !important;
         margin-top: 4rem;
     
         &__text{
