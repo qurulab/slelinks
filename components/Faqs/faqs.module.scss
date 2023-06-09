@@ -1,0 +1,30 @@
+@import "../../styles/abstracts/mixins";
+
+.faqs{
+    margin-bottom: 2rem;
+
+    &__header{
+        text-align: center;
+        padding-bottom: 2rem;
+        h1{
+            font-family: "Gordita Bold";
+            font-size: 3rem;
+        }
+    }
+
+    &__details{
+        max-width: 800px;
+        margin: 0 auto;
+    }
+}
+
+// Media Queries
+@include phone {
+    .faqs{
+        &__header{
+            h1{
+                font-size: 2rem;
+            }
+        }
+    }
+}

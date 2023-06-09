@@ -1,0 +1,83 @@
+
+@import "../../styles/abstracts/variables";
+@import "../../styles/abstracts/mixins";
+
+.new__footer{
+    background: #FFF;
+    padding: 3rem 10rem;
+    margin-bottom: 0 !important;
+    font-family: $font !important;
+    color: #000;
+
+    &__helper{
+        font-size: .9rem;
+        opacity: .8;
+    }
+
+    &__content{
+        display: flex;
+        justify-content: space-between;
+
+        span{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            cursor: pointer;
+            h1{
+                font-weight: 900 !important;
+                color: #000;
+                font-size: 2.5rem;
+            }
+        }
+
+        &__links{
+            display: flex;
+            gap: 20px;
+            width: 50%;
+            justify-content: space-between;
+            &__item{
+                ul{
+                    display: flex;
+                    flex-direction: column;
+                    line-height: 2.3;
+                    padding-left: 0 !important;
+                    
+                    a{
+                        color: #000;
+                        opacity: .8;
+                        text-decoration: none;
+                    }
+                }
+                h5{
+                    color: #000;
+                    font-size: 1.25rem;
+                    padding-bottom: 1rem;
+                    font-weight: 900;
+                }
+            }
+        }
+    }
+}
+
+// Media Queries 
+@include phone {
+    .new__footer{
+        padding: 0;
+        &__content{
+            flex-direction: column;
+
+            span {
+                padding-bottom: 5rem;
+                h1{
+                    font-size: 2rem;
+                }
+            }
+
+            &__links{
+                flex-direction: column;
+                width: 100%;
+                gap: 10px;
+            }
+        }
+    }
+}

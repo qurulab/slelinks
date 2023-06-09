@@ -1,0 +1,66 @@
+@import "../../styles/abstracts/mixins";
+@import "../../styles/abstracts/variables";
+
+.hero__form{
+    width: 100%;
+    display: flex;
+    margin-top: 1rem;
+    // margin: 0 auto;
+    font-family: "Gordita";
+
+    &__inputs{
+        display: flex;
+        width: 100%;
+    }
+
+    input, select{
+        width: 100%;
+        border: none;
+        padding: .5rem 1rem;
+        font-size: .92rem;
+        height: 4rem;
+        color: rgb(117, 110, 110);
+    }
+    select::placeholder{
+        color: red !important;
+    }
+
+    input{
+        border-right: 1px solid rgb(233, 224, 224);
+    }
+
+    select{
+        border: none;
+    }
+
+    button{
+        background: $col-primary;
+        padding: 1rem 5rem;
+        color: #FFF;
+        font-weight: bold;
+    }
+}
+
+// Media Queries
+@include phone {
+    .hero__form{
+        flex-direction: column !important;
+
+        &__inputs{
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        input, select{
+            height: 3rem;
+        }
+
+        button{
+            margin-top: 1rem;
+            height: 3rem !important;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

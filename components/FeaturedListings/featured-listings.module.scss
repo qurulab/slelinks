@@ -1,0 +1,36 @@
+@import "../../styles/abstracts/variables";
+@import "../../styles/abstracts/mixins";
+
+.featured__listings{
+    margin-bottom: 4rem;
+
+    &__header{
+        padding: 0 4rem;
+
+        h5{
+            font-size: 1.1rem;
+            color: #000;
+            opacity: .9;
+        }
+    }
+    
+    &__content{
+        display: grid;
+        margin-top: 2rem;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 25px;
+        padding: 0 4rem;
+    }
+}
+
+// Media Queries 
+@include phone {
+    .featured__listings{
+        &__header{
+            padding: 0;
+        }
+        &__content{
+            padding: 0 !important;
+        }
+    }
+}
