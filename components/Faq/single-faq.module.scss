@@ -1,0 +1,59 @@
+@import "../../styles/abstracts/mixins";
+@import "../../styles/abstracts/variables";
+
+.single__faq{
+    margin-bottom: 1rem;
+    padding: 1rem 2rem;
+    position: relative;
+    border-bottom: 1px solid #000;
+
+    // &__menu{
+    //     position: absolute;
+    //     top: 2rem;
+    //     right: 2rem;
+    //     cursor: pointer;
+    // }
+
+    &__content{
+
+        &__header{
+            display: flex;
+            justify-content: space-between;
+            gap: 5px;
+        }
+        h5{
+            font-family: $font-bold;
+            color: #000;
+            padding-bottom: 1rem;
+        }
+    
+        p{
+            color: #000;
+            // font-family: $font-medium;
+            opacity: .8;
+            line-height: 1.8;
+            font-size: 1rem;
+            max-width: 75%;
+        }
+    }
+}
+
+// Media Queries 
+@include phone {
+    .single__faq{
+        padding: 1rem 1.5rem;
+
+        &__content{
+
+            h5{
+                line-height: 1.5;
+                font-size: 1rem;
+                padding-bottom: .5rem;
+            }
+            p{
+                max-width: 100%;
+                font-size: .9rem;
+            }
+        }
+    }
+}

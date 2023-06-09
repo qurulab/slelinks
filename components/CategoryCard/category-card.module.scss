@@ -1,0 +1,83 @@
+
+@import "../../styles/abstracts/variables";
+@import "../../styles/abstracts/mixins";
+
+.category__card{
+    min-width: 380px;
+    margin: 0 10px;
+    border: 1px solid #181717;
+
+    &__img{
+        position: relative;
+        // background-color: #0e0d0d;
+        background: #000;
+
+        // &--img{
+        //     border-top-right-radius: 20px; 
+        //     border-top-left-radius: 20px;
+        // }
+        &--overlay{
+            position: absolute;
+            content: "";
+            background: rgba(0,0,0,.25);
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    &__text{
+        padding: 0rem 1.8rem;
+        padding-bottom: 4rem !important;
+        padding-top: 3rem;
+        // background-color: #000;
+        // box-shadow: 10px 20px 30px 0 #0e0d0d;
+
+        h6{
+            font-family: $font;
+            font-size: 1.15rem;
+            font-weight: bold;
+            color: #FFF;
+        }
+
+        p{
+            font-size: .98rem;
+            padding-top: .6rem;
+            padding-bottom: 2rem;
+            font-family: $font;
+            color: #FFF;
+            opacity: .75;
+            line-height: 1.7;
+        }
+
+        &--btn{
+            background: $col-primary;
+            color: #FFF;
+            padding: 1rem 1.2rem;
+            font-size: .9rem;
+            margin-bottom: 1rem;
+            font-family: $font;
+            font-weight: 400;
+            text-decoration: none;
+        }
+        &--btn:hover{
+            color: #FFF;
+        }
+    }
+}
+
+// Media Queries @ Phone 
+@include phone {
+    .category__card{
+        min-width: 270px;
+
+        &__text{
+            background: #0e0d0d;
+            h6{
+                font-size: 1.3rem;
+            }
+            p{
+                font-size: .95rem;
+            }
+        }
+    }
+}

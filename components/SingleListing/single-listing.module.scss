@@ -1,0 +1,44 @@
+@import "../../styles/abstracts/variables";
+@import "../../styles/abstracts/mixins";
+
+.single__listing{
+    cursor: pointer;
+
+    &__img{
+        position: relative;
+
+        &--overlay{
+            position: absolute;
+            background: linear-gradient(to bottom, rgba(0,0,0,.3), rgba(0,0,0,.7));
+            height: 100%;
+            width: 100%;
+            z-index: 888;
+        }
+
+        &__text{
+            color: #FFF;
+            position: absolute;
+            bottom: .3rem;
+            z-index: 888;
+            right: 0;
+            left: 0;
+            width: 350px;
+            padding-left: 1rem;
+
+            h4{
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+// Media Queries 
+@include phone {
+    .single__listing{
+        &__img{
+            &__overlay{
+                width: 10%;
+            }
+        }
+    }
+}

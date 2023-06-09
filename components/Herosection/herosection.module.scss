@@ -1,0 +1,84 @@
+@import "../../styles/abstracts/variables";
+@import "../../styles/abstracts/mixins";
+
+.herosection{
+    height: 100vh;
+
+    &__content{
+        background: linear-gradient(rgba(0,0,0,.85), rgba(0,0,0,.85)), url("../../public/assets/images/banner.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 85%;
+        position: relative;
+        display: flex;
+        align-items: center;
+
+        &__details{
+            max-width: 1000px;
+            margin: 0 auto;
+            text-align: center;
+            color: #FFF;
+            h1{
+                // font-family: "Moderat Bold" ;
+                font-size: 3rem;
+            }
+            h5{
+                padding-bottom: 1rem;
+                opacity: .85;
+            }
+        }
+
+        &__categories{
+            background: #FFF;
+            box-shadow: 0 0 30px 0 rgba(0,0,0,.1);
+            max-width: 1000px;
+            margin: 0 auto;
+            position: absolute;
+            right: 0;
+            left: 0;
+            bottom: -3rem;
+            padding: 1.2rem 1.5rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+            grid-gap: 20px;
+
+            &--item{
+                text-align: center;
+                cursor: pointer;
+                h5{
+                    padding-top: .5rem;
+                    color: rgb(117, 110, 110);
+                    font-weight: bold;
+                    font-size: .93rem;
+                }
+
+                &--item1, &--item2, &--item3{
+                    border-right: 1px solid rgb(233, 224, 224);
+                }
+            }
+        }
+    }
+}
+
+//Media Queries 
+@include phone {
+    .herosection{
+        height: 100vh !important;
+        &__content{
+            height: 95%;
+            &__details{
+                h1{
+                    font-size: 2rem;
+                    padding-bottom: 1rem;
+                }
+                h5{
+                    font-size: 1rem;
+                }
+            }
+            &__categories{
+                display: none;
+            }
+        }
+    }
+}
