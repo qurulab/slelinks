@@ -21,6 +21,7 @@
 // Media Queries
 @include phone {
     .faqs{
+        margin-bottom: 4rem !important;
         &__header{
             h1{
                 font-size: 2rem;
