@@ -18,7 +18,7 @@ const Categories = () => {
             <div className="row">
                 <div className="col-12">
                     <div className={ styles["categories__content"] }>
-                    <CategoryCard 
+                        <CategoryCard 
                             title='Photography'
                             description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, praesentium?'
                             thumbnail={ camera }
