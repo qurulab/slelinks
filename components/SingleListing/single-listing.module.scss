@@ -20,7 +20,7 @@
         &__text{
             color: #FFF;
             position: absolute;
-            bottom: .3rem;
+            bottom: .4rem;
             z-index: 888;
             right: 0;
             left: 0;
@@ -28,7 +28,7 @@
             padding-left: 1rem;
 
             h4{
-                font-size: 1rem;
+                font-size: 1.05rem;
             }
         }
     }
@@ -43,9 +43,8 @@
             }
 
             &__text{
-                bottom: .1rem;
                 h4{
-                    font-size: .9rem;
+                    font-size: .95rem;
                 }
             }
         }
