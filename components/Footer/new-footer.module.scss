@@ -62,9 +62,19 @@
 // Media Queries 
 @include phone {
     .new__footer{
-        padding: 0;
+        padding: 0 !important;
+        padding-left: 1rem !important;
+        flex-direction: column;
+        gap: 0;
+
+        img{
+            display: none;
+        }
         &__content{
-            flex-direction: column;
+            // flex-direction: column;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 0;
 
             span {
                 padding-bottom: 5rem;
@@ -74,9 +84,17 @@
             }
 
             &__links{
-                flex-direction: column;
+                // flex-direction: column;
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
                 width: 100%;
                 gap: 10px;
+
+                &__item{
+                    h5{
+                        padding-bottom: .4rem;
+                    }
+                }
             }
         }
     }

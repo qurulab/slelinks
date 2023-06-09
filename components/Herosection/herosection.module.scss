@@ -64,7 +64,7 @@
 //Media Queries 
 @include phone {
     .herosection{
-        height: 100vh !important;
+        height: 90vh !important;
         &__content{
             height: 95%;
             &__details{

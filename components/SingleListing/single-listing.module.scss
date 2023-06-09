@@ -6,6 +6,7 @@
 
     &__img{
         position: relative;
+        width: 100%;
 
         &--overlay{
             position: absolute;
@@ -36,8 +37,15 @@
 @include phone {
     .single__listing{
         &__img{
-            &__overlay{
-                width: 10%;
+            &--overlay{
+                width: 100% !important;
+            }
+
+            &__text{
+                bottom: .1rem;
+                h4{
+                    font-size: .9rem;
+                }
             }
         }
     }
