@@ -6,7 +6,7 @@
     color: #FFF;
     padding: 4rem 0rem;
     margin-bottom: 4rem;
-    margin-top: 6rem;
+    margin-top: 8rem;
 
     &__header{
         padding: 0 4rem;
@@ -40,7 +40,7 @@
 // Media Queries 
 @include phone {
     .categories{
-        margin-top: 3rem !important;
+        margin-top: 4rem !important;
         padding: 0 .5rem!important;
         overflow-x: hidden !important;
 

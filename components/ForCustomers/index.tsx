@@ -13,7 +13,7 @@ const ForCustomers = () => {
                     <div className={ styles["businesses__text"] }>
                         <h1>Find quality services providers when it matters most</h1>
                         <p>From plumbers, instrumentalists, mechanics, bakers, tailors to lesson teachers, easily find verfied service providers all from your mobile phones. It's fast and no needless signups</p>
-                        <Button title="Find service providers" path="" />
+                        <Button title="Find service providers" path="" /><br />
                     </div>
                 </div>
                 <div className="col-md-5">
