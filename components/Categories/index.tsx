@@ -20,31 +20,31 @@ const Categories = () => {
                     <div className={ styles["categories__content"] }>
                     <CategoryCard 
                             title='Photography'
-                            description='Have multiple properties? sync and manage them in one place...'
+                            description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, praesentium?'
                             thumbnail={ camera }
                             label='Find Photographers'
                         />
                         <CategoryCard 
                             title='Photography'
-                            description='Have multiple properties? sync and manage them in one place...'
+                            description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, praesentium?'
                             thumbnail={ camera }
                             label='Find Photographers'
                         />
                         <CategoryCard 
                             title='Photography'
-                            description='Have multiple properties? sync and manage them in one place...'
+                            description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, praesentium?'
                             thumbnail={ camera }
                             label='Find Photographers'
                         />
                         <CategoryCard 
                             title='Photography'
-                            description='Have multiple properties? sync and manage them in one place...'
+                            description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, praesentium?'
                             thumbnail={ camera }
                             label='Find Photographers'
                         />
                         <CategoryCard 
                             title='Photography'
-                            description='Have multiple properties? sync and manage them in one place...'
+                            description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, praesentium?'
                             thumbnail={ camera }
                             label='Find Photographers'
                         />

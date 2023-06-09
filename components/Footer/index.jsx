@@ -39,7 +39,7 @@ const Footer = () => {
                 </div>
             </div>
             <hr />
-            <p className={ styles["new__footer__helper"] }>Built with ♥️ from Qurulab Technologies. All Rights Reserved. &copy; 2023. Kichor</p>
+            <p className={ styles["new__footer__helper"] }>Kichor, built with ♥️ from Qurulab Technologies. All Rights Reserved. &copy; 2023</p>
         </div>
     </div>
   )
