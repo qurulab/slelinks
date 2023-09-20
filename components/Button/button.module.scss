@@ -1,16 +1,31 @@
 @import "../../styles/abstracts/mixins";
+@import "../../styles/abstracts/variables";
 
-.button{
-    background-color: #000;
-    padding: 1.2rem 3rem;
-    color: #FFF;
-    text-decoration: none;
+.button {
+  padding: 1rem 1.5rem;
+  color: #fff;
+  text-decoration: none;
+  font-family: "Urbanist";
+  font-weight: bold;
 }
 
-// Media Queries 
+.button__primary {
+  @extend .button;
+  background: #37b3d0;
+  color: #fff;
+}
+
+.button__secondary {
+  @extend .button;
+  background: transparent;
+  border: 1px solid $col-white;
+  color: $col-white;
+}
+
+// Media Queries
 @include phone {
-    .button{
-        padding: 1.2rem 2rem;
-        font-size: .9rem;
-    }
+  .button {
+    padding: 1.2rem 2rem;
+    font-size: 0.9rem;
+  }
 }

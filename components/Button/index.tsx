@@ -5,14 +5,20 @@ import { BsArrowRight } from "react-icons/bs"
 interface buttonProps {
     title: string;
     path: string;
+    type: string;
 }
 
 const Button: React.FC<buttonProps> = ({
     title,
-    path
+    path,
+    type
 }) => {
   return (
-    <Link href={ path } className={ styles["button"] }><span>{ title } &nbsp; <BsArrowRight /></span></Link>
+    <Link 
+      href={ path } 
+      className={ type == "primary" ? styles["button__primary"] : styles["button__secondary"] }>
+      <span>{ title } &nbsp;
+       <BsArrowRight /></span></Link>
   )
 }
 

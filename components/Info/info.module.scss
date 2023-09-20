@@ -1,0 +1,14 @@
+@import "../../styles/abstracts/variables";
+
+.info {
+  background: #1a1c1f;
+  color: $col-white;
+  font-family: $font;
+
+  &__content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0.6rem 0;
+  }
+}

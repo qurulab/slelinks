@@ -1,7 +1,7 @@
 import styles from "./page.module.scss";
 import Herosection from "@/components/Herosection";
-import FeaturedListings from "@/components/FeaturedListings";
-import PopularListings from "@/components/PopularListings";
+// import FeaturedListings from "@/components/FeaturedListings";
+// import PopularListings from "@/components/PopularListings";
 import GetStarted from "@/components/GetStarted";
 import ForBusinesses from "@/components/ForBusinesses";
 import ForCustomers from "@/components/ForCustomers";
@@ -14,8 +14,8 @@ export default function Home() {
   return (
    <div className={ styles["home"] }>
       <Herosection />
-      <FeaturedListings />
-      <PopularListings />
+      {/* <FeaturedListings />
+      <PopularListings /> */}
       <GetStarted />
       <ForBusinesses />
       <ForCustomers />
