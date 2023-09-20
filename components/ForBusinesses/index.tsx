@@ -18,7 +18,7 @@ const ForBusinesses = () => {
                     <div className={ styles["businesses__text"] }>
                         <h1>More visibility, access to more customers everyday</h1>
                         <p>Leverage our marketplace to increase your access to a wider market for your services and gain better insights on your business data at your fingertips. It's free, easy to get started.</p>
-                        <Button title="Get started for free" path="" />
+                        <Button type="primary" title="Get started for free" path="" />
                     </div>
                 </div>
             </div>
