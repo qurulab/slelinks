@@ -7,6 +7,12 @@
 @import "./base/reset";
 @import "./base/typography";
 
-body{
-    overflow-x: hidden !important;
+body {
+  overflow-x: hidden !important;
+}
+
+.container {
+  //   background: red;
+  max-width: 1250px !important;
+  margin: 0 auto;
 }
