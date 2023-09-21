@@ -6,7 +6,7 @@ const Faqs = () => {
     const faqs = [
         {
             id: 1,
-            question: "What is Kichor",
+            question: "What is Ikpa Akazi",
             answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora sapiente esse quis quam ratione natus?"
         },
         {

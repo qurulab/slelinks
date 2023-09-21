@@ -14,7 +14,7 @@ const Footer = () => {
                 </Link>
                 <div className={ styles["new__footer__content__links"] }>
                     <div className={ styles["new__footer__content__links__item"] }>
-                        <h5>Kichor</h5>
+                        <h5>Ikpa Akazi</h5>
                         <ul>
                             <Link href="#team">Communities</Link>
                             <Link href="/">Careers</Link>
@@ -22,7 +22,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className={ styles["new__footer__content__links__item"] }>
-                        <h5>Kichor Services</h5>
+                        <h5>Our Services</h5>
                         <ul>
                             <Link href="">Web development</Link>
                             <Link href="/">Mobile development</Link>
@@ -32,14 +32,14 @@ const Footer = () => {
                     <div className={ styles["new__footer__content__links__item"] }>
                         <h5>Contact</h5>
                         <ul>
-                            <a href="mailto: hello@qurulab.com">hello@qurulab.com</a>
+                            <a href="mailto: hello@qurulab.com">hello@ikpaakazi.com</a>
                             <a href="tel:+2347068684876">+234 706 868 4876</a>
                         </ul>
                     </div>
                 </div>
             </div>
             <hr />
-            <p className={ styles["new__footer__helper"] }>Kichor, built with ♥️ from Qurulab Technologies. All Rights Reserved. &copy; 2023</p>
+            <p className={ styles["new__footer__helper"] }>Ikpa Akazi, built with ♥️ from Qurulab Technologies. All Rights Reserved. &copy; 2023</p>
         </div>
     </div>
   )

@@ -1,31 +1,33 @@
 @import "../../styles/abstracts/mixins";
+@import "../../styles/abstracts/_variables";
 
-.faqs{
-    margin-bottom: 2rem;
+.faqs {
+  margin-bottom: 2rem;
 
-    &__header{
-        text-align: center;
-        padding-bottom: 2rem;
-        h1{
-            font-family: "Gordita Bold";
-            font-size: 3rem;
-        }
+  &__header {
+    text-align: center;
+    padding-bottom: 2rem;
+    h1 {
+      font-family: $font-bold;
+      font-size: 3rem;
+      color: $col-dark;
     }
+  }
 
-    &__details{
-        max-width: 800px;
-        margin: 0 auto;
-    }
+  &__details {
+    max-width: 800px;
+    margin: 0 auto;
+  }
 }
 
 // Media Queries
 @include phone {
-    .faqs{
-        margin-bottom: 4rem !important;
-        &__header{
-            h1{
-                font-size: 2rem;
-            }
-        }
+  .faqs {
+    margin-bottom: 4rem !important;
+    &__header {
+      h1 {
+        font-size: 2rem;
+      }
     }
+  }
 }

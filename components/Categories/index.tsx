@@ -9,7 +9,7 @@ const Categories = () => {
             <div className="row">
                 <div className="col-md-8 col-ms-12 col-xs-12">
                     <div className={ styles["categories__header"] }>
-                    <h1>Find verified services providers on the go</h1>
+                    <h1>Top Rated Artisans</h1>
                     <p>Do not walk the entire street aimlessly looking for service providers.We have got you covered. Find service men from our pool of talents</p>
                 </div>
             </div>
