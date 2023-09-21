@@ -1,62 +1,62 @@
 @import "../../styles/abstracts/mixins";
 
-.categories{
+.categories {
+  padding: 0 4rem;
+  background-color: #000;
+  color: #fff;
+  padding: 4rem 0rem;
+  margin-bottom: 4rem;
+  margin-top: 8rem;
+
+  &__header {
     padding: 0 4rem;
-    background-color: #000;
-    color: #FFF;
-    padding: 4rem 0rem;
-    margin-bottom: 4rem;
-    margin-top: 8rem;
-
-    &__header{
-        padding: 0 4rem;
-        padding-bottom: 3rem;
-        h1{
-            font-size: 3.5rem;
-            padding-top: 3rem;
-            font-family: "Gordita Bold";
-        }
-        p{
-            font-size: 1.2rem;
-            padding-top: 1rem;
-            line-height: 1.8;
-            opacity: .85;
-        }
+    padding-bottom: 3rem;
+    h1 {
+      font-size: 3.5rem;
+      padding-top: 3rem;
+      font-family: $font-bold;
     }
-
-    &__content{
-        display: flex;
-        overflow-x: auto;
-        min-width: 100%;
-        padding-bottom: 5rem;
-        padding-left: 4rem;
+    p {
+      font-size: 1.2rem;
+      padding-top: 1rem;
+      line-height: 1.8;
+      opacity: 0.85;
     }
+  }
+
+  &__content {
+    display: flex;
+    overflow-x: auto;
+    min-width: 100%;
+    padding-bottom: 5rem;
+    padding-left: 4rem;
+  }
 }
 
-.categories::-webkit-scrollbar{
-    display: none;
+.categories::-webkit-scrollbar {
+  display: none;
 }
 
-// Media Queries 
+// Media Queries
 @include phone {
-    .categories{
-        margin-top: 4rem !important;
-        padding: 0 .5rem!important;
-        overflow-x: hidden !important;
+  .categories {
+    margin-top: 4rem !important;
+    padding: 0 0.5rem !important;
+    overflow-x: hidden !important;
 
-        &__header{
-            padding: 0;
-            h1{
-                font-size: 2rem;
-            }
-            p{
-                font-size: .9rem;
-            }
-        }
-
-        &__content{
-            padding-left: 0;
-            padding-top: 2rem;
-        }
+    &__header {
+      padding: 0;
+      h1 {
+        font-size: 2rem;
+      }
+      p {
+        font-size: 0.9rem;
+      }
     }
+
+    &__content {
+      padding-left: 0;
+      padding-top: 2rem;
+    }
+  }
 }

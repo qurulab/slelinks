@@ -10,7 +10,7 @@ const GetStarted = () => {
                     <div className="col-md-10 col-sm-12 col-xs-12">
                         <div className={ styles["start__content__header"] }>
                             <h1>Seamless Onboarding</h1>
-                            <p>No filling of long forms, no submittion of credentials. You can create a free account, add your listings, manage listings all in few minutes</p>
+                            <p>No filling of long forms, no submittion of long credentials. You can create a free account, add your services, and be available for bookings in few minutes</p>
                         </div>
                     </div>
                 </div>
@@ -33,8 +33,8 @@ const GetStarted = () => {
                                 </span>
                                 <div className={ styles["start__content__grid__item__iconholder--span"] }></div>
                             </div>
-                            <h6>Verify your account</h6>
-                            <p>Verify your new account by clicking on the link that will be sent to your mail when you register</p>
+                            <h6>Add your services</h6>
+                            <p>Complete your profile and add your services listings and be available to users for bookings</p>
                         </div>
                         <div className={ styles["start__content__grid__item"] }> 
                             <div className={ styles["start__content__grid__item__iconholder"] }>
@@ -43,10 +43,10 @@ const GetStarted = () => {
                                 </span>
                                 <div className={ styles["start__content__grid__item__iconholder--span"] }></div>
                             </div>
-                            <h6>Add your listings</h6>
-                            <p>Add your services listings by simply filling out a short form with the relevant information</p>
+                            <h6>Fufil Bookings</h6>
+                            <p>Accespt service bookings from customers, fufil the booking and receive yoiur payment to your wallet</p>
                         </div>
-                        <div className={ styles["start__content__grid__item"] }> 
+                        {/* <div className={ styles["start__content__grid__item"] }> 
                             <div className={ styles["start__content__grid__item__iconholder"] }>
                                 <span className={ styles["start__content__grid__item__iconholder__icon"] }>
                                    4
@@ -55,7 +55,7 @@ const GetStarted = () => {
                             </div>
                             <h6>Fufil bookings</h6>
                             <p>Now you can sit back while you only bother about fufilling bookings. We simply take care of the rest</p>
-                        </div>
+                        </div> */}
                     </div><br />
                 </div>
             </div>

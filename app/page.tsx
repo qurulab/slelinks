@@ -18,10 +18,10 @@ export default function Home() {
       <Herosection />
       <UsersProcess />
       <Intro />
+      <ForBusinesses />
       {/* <FeaturedListings />
       <PopularListings /> */}
       <GetStarted />
-      <ForBusinesses />
       <ForCustomers />
       <Categories />
       <Faqs />
