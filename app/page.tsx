@@ -1,5 +1,7 @@
 import styles from "./page.module.scss";
 import Herosection from "@/components/Herosection";
+import Intro from "@/components/Intro";
+import UsersProcess from "@/components/UsersProcess";
 // import FeaturedListings from "@/components/FeaturedListings";
 // import PopularListings from "@/components/PopularListings";
 import GetStarted from "@/components/GetStarted";
@@ -14,6 +16,8 @@ export default function Home() {
   return (
    <div className={ styles["home"] }>
       <Herosection />
+      <UsersProcess />
+      <Intro />
       {/* <FeaturedListings />
       <PopularListings /> */}
       <GetStarted />

@@ -11,14 +11,14 @@
 
 .button__primary {
   @extend .button;
-  background: #3d9c2e;
-  color: #fff;
+  background: $col-primary;
+  color: #000;
 }
 
 .button__secondary {
   @extend .button;
   background: transparent;
-  border: 1px solid $col-white;
+  border: 1px solid $col-primary;
   color: $col-white;
 }
 

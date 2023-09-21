@@ -4,7 +4,7 @@ import Navbar from '../Navbar'
 import Button from '../Button'
 import Image from 'next/image'
 import hero__img from "../../public/assets/images/app-mockup.png"
-import Info from '../Info'
+// import Info from '../Info'
 
 const Herosection = () => {
   return (
@@ -12,7 +12,7 @@ const Herosection = () => {
         <Navbar type='light' />
         <div className={ styles["herosection__content"] }>
             <div className={ styles["herosection__content__info"] }>
-                <Info />
+                {/* <Info /> */}
             </div>
             <div className="container">
                 <div className={ styles["herosection__content__details"] }>
@@ -27,8 +27,9 @@ const Herosection = () => {
                         </div>
                     </div>
                     <div className={ styles["herosection__content__details__right"] }>
+                        <div className={ styles["herosection__content__details__right--pseudo"] }></div>
                         <div className={ styles["herosection__content__details__right--img"] }>
-                            <Image src={ hero__img } height={ 200 } width={ 270 } alt='App mockup' />
+                            <Image src={ hero__img } height={ 250 } width={ 270 } alt='App mockup' />
                         </div>
                     </div>
                 </div>
