@@ -2,8 +2,8 @@ import '../styles/style.scss'
 import 'bootstrap/dist/css/bootstrap.css';
 
 export const metadata = {
-  title: 'Kichor - find verified artisans in your area',
-  description: 'Find verified artisans, gym instructors, hair dressers and others in your area',
+  title: 'Impa Akazi',
+  description: 'Find verified and trusted artisans in your area',
 }
 
 export default function RootLayout({
