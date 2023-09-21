@@ -79,16 +79,16 @@ const Navbar: React.FC<navbarProps> = ({
                     <div className={ styles["navbar__content__details__left"] }>
                         <div className={ styles["navbar__content__details__left--links"] }>
                             <li><Link href="">Home</Link></li>
-                            <li><Link href="">Listings</Link></li>
-                            <li><Link href="">Categories</Link></li>
-                            <li><Link href="">Blog</Link></li>
+                            <li><Link href="">About</Link></li>
+                            <li><Link href="">Artisans</Link></li>
+                            <li><Link href="">Our Blog</Link></li>
                             <li><Link href="">Contact</Link></li>
                         </div>
                     </div>
 
                     <div className={ styles["navbar__content__details__right"] }>
                         <div className={ styles["navbar__content__details__right--links"] }>
-                            <li><Link href="/auth/sign-in" className={ type === "dark" ? styles["navbar__content__details__right--links--login"] : styles["navbar__content__details__right--links--login--light"] }>Sign In</Link></li>
+                            {/* <li><Link href="/auth/sign-in" className={ type === "dark" ? styles["navbar__content__details__right--links--login"] : styles["navbar__content__details__right--links--login--light"] }>Sign In</Link></li> */}
                             <li><Link href="/auth/sign-up" className={ type === "dark" ? styles["navbar__content__details__right--links--register"] : styles["navbar__content__details__right--links--register--light"]  }>Create an account</Link></li>
                         </div>
                     </div>
