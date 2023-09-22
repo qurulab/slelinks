@@ -85,6 +85,8 @@
 @include phone {
   .process {
     padding-top: 3rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
 
     &__header {
       max-width: 100%;

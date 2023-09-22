@@ -41,6 +41,8 @@
   .intro {
     padding-top: 1.5rem;
     padding-bottom: 0;
+    padding-right: 1rem;
+    padding-left: 1rem;
 
     &__text {
       max-width: 100%;
@@ -58,8 +60,11 @@
 
       &__item {
         padding: 0.8rem 0.5rem !important;
-        min-width: 200px;
+        min-width: 190px;
         margin: 0 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
     }
   }
