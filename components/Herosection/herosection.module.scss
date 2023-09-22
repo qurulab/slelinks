@@ -81,16 +81,45 @@
 //Media Queries
 @include phone {
   .herosection {
-    height: 90vh !important;
+    height: 100%;
+    // height: 100vh !important;
+    padding-bottom: 3rem;
     &__content {
-      height: 95%;
+      height: 100%;
+      // height: 100vh !important;
       &__details {
-        h1 {
-          font-size: 2rem;
-          padding-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+
+        &__left {
+          padding-top: 4rem;
+          max-width: 100%;
+          h1 {
+            font-size: 1.7rem;
+            padding-bottom: 1rem;
+            line-height: 1.7;
+          }
+          p {
+            font-size: 0.9rem;
+            padding-bottom: 1rem !important;
+          }
+          &__buttons {
+            display: flex;
+            flex-direction: column;
+            // padding-bottom: 3rem;
+          }
         }
-        h5 {
-          font-size: 1rem;
+
+        &__right {
+          margin-top: 0rem !important;
+          &--pseudo {
+            display: none;
+          }
+          &--img {
+            max-width: 250px;
+            display: none;
+            height: auto;
+          }
         }
       }
     }

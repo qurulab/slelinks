@@ -1,4 +1,5 @@
 @import "../../styles/abstracts/_variables";
+@import "../../styles/abstracts/mixins";
 
 .intro {
   background: #fff;
@@ -31,6 +32,35 @@
       border-radius: 6px;
       text-align: center;
       color: #313131;
+    }
+  }
+}
+
+//Media Queries
+@include phone {
+  .intro {
+    padding-top: 1.5rem;
+    padding-bottom: 0;
+
+    &__text {
+      max-width: 100%;
+      h2 {
+        line-height: 1.8;
+        font-size: 1.28rem;
+      }
+    }
+
+    &__grid {
+      display: flex;
+      overflow-x: auto;
+      min-width: 100%;
+      padding-bottom: 0;
+
+      &__item {
+        padding: 0.8rem 0.5rem !important;
+        min-width: 200px;
+        margin: 0 0px;
+      }
     }
   }
 }
