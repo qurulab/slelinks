@@ -39,7 +39,7 @@ const Footer = () => {
                 </div>
             </div>
             <hr />
-            <p className={ styles["new__footer__helper"] }>Ikpa Akazi, built with ♥️ from Qurulab Technologies. All Rights Reserved. &copy; 2023</p>
+            <p className={ styles["new__footer__helper"] }>Ikpa Akazi. All Rights Reserved. &copy; 2023</p>
         </div>
     </div>
   )

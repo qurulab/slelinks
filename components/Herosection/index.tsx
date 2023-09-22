@@ -21,7 +21,7 @@ const Herosection = () => {
                             <h1>Verified and Trusted Artisans for your work</h1>
                             <p>Access over 500 vetted and trusted local service providers for all your domestic needs ranging from plumbing, laundry, painting. Finding a vetted artisan should not be a very difficult task!</p>
                             <div className={ styles["herosection__content__details__left__buttons"] }>
-                                <Button type='primary' title="Create a free account in 2 minutes" path="about" />
+                                <Button type='primary' title="Create a free account today" path="about" />
                                 <Button type='secondary' title="Become an Artisan" path="about" />
                             </div>
                         </div>
