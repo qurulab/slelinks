@@ -2,8 +2,10 @@ import '../styles/style.scss'
 import 'bootstrap/dist/css/bootstrap.css';
 
 export const metadata = {
-  title: 'Impa Akazi',
-  description: 'Find verified and trusted artisans in your area',
+  title: 'Slelinks - Social network for learners',
+  description: 'Social network for learners',
+  href: "https://api.fontshare.com/v2/css?f[]=satoshi@1,900,700,500,300,400&amp;display=swap"
+  // rel: "stylesheet"
 }
 
 export default function RootLayout({

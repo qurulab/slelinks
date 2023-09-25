@@ -11,9 +11,9 @@ const ForCustomers = () => {
                 {/* <div className="col-md-1"></div> */}
                 <div className="col-md-6">
                     <div className={ styles["businesses__text"] }>
-                        <h1>Find quality services providers when it matters most</h1>
-                        <p>From plumbers, instrumentalists, mechanics, bakers, tailors to lesson teachers, easily find verfied service providers all from your mobile phones. It's fast and no needless signups</p>
-                        <Button type="primary" title="Find service providers" path="" /><br />
+                        <h1> Put the joy back in schooling.</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis egestas lorem a fermentum. Morbi interdum diam et mi fermentum, sed faucibus purus iaculis.</p>
+                        <Button type="primary" title="Get started" path="" /><br />
                     </div>
                 </div>
                 <div className="col-md-5">

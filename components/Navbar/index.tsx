@@ -4,7 +4,7 @@ import React from 'react'
 import styles from "./navbar.module.scss"
 import Link from 'next/link'
 import Image from "next/image"
-import logo from "../../public/assets/images/logo.png"
+import logo from "../../public/assets/images/slelinks-logo.svg"
 import darkLogo from "../../public/assets/images/leaseflow_log_white.png"
 import { BiMenuAltLeft, BiMinusCircle } from "react-icons/bi"
 import { useState, useEffect } from "react"
@@ -79,17 +79,15 @@ const Navbar: React.FC<navbarProps> = ({
                     <div className={ styles["navbar__content__details__left"] }>
                         <div className={ styles["navbar__content__details__left--links"] }>
                             <li><Link href="">Home</Link></li>
-                            <li><Link href="">About</Link></li>
-                            <li><Link href="">Artisans</Link></li>
-                            <li><Link href="">Our Blog</Link></li>
-                            <li><Link href="">Contact</Link></li>
+                            <li><Link href="">Blog</Link></li>
+                            <li><Link href="">FAQ</Link></li>
                         </div>
                     </div>
 
                     <div className={ styles["navbar__content__details__right"] }>
                         <div className={ styles["navbar__content__details__right--links"] }>
                             {/* <li><Link href="/auth/sign-in" className={ type === "dark" ? styles["navbar__content__details__right--links--login"] : styles["navbar__content__details__right--links--login--light"] }>Sign In</Link></li> */}
-                            <li><Link href="/auth/sign-up" className={ type === "dark" ? styles["navbar__content__details__right--links--register"] : styles["navbar__content__details__right--links--register--light"]  }>Create an account</Link></li>
+                            <li><Link href="/auth/sign-up" className={ styles["navbar__content__details__right--links--register"] }>Create an account</Link></li>
                         </div>
                     </div>
                 </div>

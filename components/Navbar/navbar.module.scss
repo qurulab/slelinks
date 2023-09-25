@@ -33,7 +33,7 @@
         color: #fff;
         text-decoration: none;
         font-size: 0.95rem;
-        font-family: "Urbanist";
+        font-family: "Avenir", sans-serif;
       }
 
       &__left {
@@ -62,21 +62,21 @@
           gap: 50px;
 
           &--register {
-            background: $col-secondary;
+            background: $col-primary;
             padding: 1rem 1.5rem;
-            color: #000 !important;
+            color: #fff !important;
             font-family: $font;
             border-radius: 0px;
           }
 
           // For light theme navbar
-          &--register--light {
-            background: $col-primary;
-            padding: 1rem 1.5rem;
-            color: #000 !important;
-            font-weight: bold !important;
-            border-radius: 0px;
-          }
+          // &--register--light {
+          //   background: $col-primary;
+          //   padding: 1rem 1.5rem;
+          //   color: #000 !important;
+          //   font-weight: bold !important;
+          //   border-radius: 0px;
+          // }
         }
       }
     }

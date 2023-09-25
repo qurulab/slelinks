@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div className={ styles["new__footer"] }>
         <div className="container">
-            <div className={ styles["new__footer__content"] }>
+            {/* <div className={ styles["new__footer__content"] }>
                 <Link href="/">
                     <span><Image src={ logoImg } height={100} width={100} alt='Kichor Logo'/></span>
                 </Link>
@@ -37,9 +37,9 @@ const Footer = () => {
                         </ul>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <hr />
-            <p className={ styles["new__footer__helper"] }>Ikpa Akazi. All Rights Reserved. &copy; 2023</p>
+            <p className={ styles["new__footer__helper"] }>Slelink. All Rights Reserved. &copy; 2023</p>
         </div>
     </div>
   )

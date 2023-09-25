@@ -6,12 +6,12 @@ const Faqs = () => {
     const faqs = [
         {
             id: 1,
-            question: "What is Ikpa Akazi",
+            question: "What is Slelinks",
             answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora sapiente esse quis quam ratione natus?"
         },
         {
             id: 2,
-            question: "Can I create an account for free ?",
+            question: "Who can use Slelinks?",
             answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora sapiente esse quis quam ratione natus?"
         },
         {
@@ -21,7 +21,12 @@ const Faqs = () => {
         },
         {
             id: 4,
-            question: "Can I pay for services directly on the platform ?",
+            question: "Can I connect with lecturers?",
+            answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora sapiente esse quis quam ratione natus?"
+        },
+        {
+            id: 5,
+            question: "Can all student use Slelinks?",
             answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora sapiente esse quis quam ratione natus?"
         }
     ]
