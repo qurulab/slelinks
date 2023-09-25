@@ -39,7 +39,7 @@ const Footer = () => {
                 </div>
             </div> */}
             <hr />
-            <p className={ styles["new__footer__helper"] }>Slelink. All Rights Reserved. &copy; 2023</p>
+            <p className={ styles["new__footer__helper"] }>Slelinks. All Rights Reserved. © 2023</p>
         </div>
     </div>
   )
