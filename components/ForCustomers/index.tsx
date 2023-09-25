@@ -11,8 +11,8 @@ const ForCustomers = () => {
                 {/* <div className="col-md-1"></div> */}
                 <div className="col-md-6">
                     <div className={ styles["businesses__text"] }>
-                        <h1> Put the joy back in schooling.</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur convallis egestas lorem a fermentum. Morbi interdum diam et mi fermentum, sed faucibus purus iaculis.</p>
+                        <h1> Never Miss A Fun Event!</h1>
+                        <p>Stay informed of all parties, seminars, picnics and fun moments near you.</p>
                         <Button type="primary" title="Get started" path="" /><br />
                     </div>
                 </div>

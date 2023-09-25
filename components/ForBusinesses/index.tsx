@@ -16,8 +16,8 @@ const ForBusinesses = () => {
                 {/* <div className="col-md-1"></div> */}
                 <div className="col-md-6">
                     <div className={ styles["businesses__text"] }>
-                        <h1>Do more in school</h1>
-                        <p>Leverage our marketplace to increase your access to a wider market for your services and gain better insights on your business data at your fingertips. It's free, easy to get started.</p>
+                        <h1>Sell More in Schools</h1>
+                        <p>Leverage our school communities to increase your access to a wider market of students. Easily sell your services and products to students near you and beyond.</p>
                         <Button type="primary" title="Get started" path="" />
                     </div>
                 </div>
