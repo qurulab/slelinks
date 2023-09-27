@@ -7,27 +7,32 @@ const Faqs = () => {
         {
             id: 1,
             question: "What is Slelinks",
-            answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora sapiente esse quis quam ratione natus?"
+            answer: "Slelinks is a social ed-tech platform for students, lecturers, and alumni to connect, learn, & share."
         },
         {
             id: 2,
             question: "Who can use Slelinks?",
-            answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora sapiente esse quis quam ratione natus?"
-        },
+            answer: "Students, lecturers, alumni, bloggers, freelancers"
+        }, 
         {
             id: 3,
-            question: "Is there a monthly subscription charge ?",
-            answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora sapiente esse quis quam ratione natus?"
+            question: "Can I connect with students in other schools?",
+            answer: "Yes, you can connect with students in other schools and other departments."
         },
         {
             id: 4,
-            question: "Can I connect with lecturers?",
-            answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora sapiente esse quis quam ratione natus?"
+            question: "Is there a monthly subscription charge?",
+            answer: "No, Slelinks is free to use"
         },
         {
             id: 5,
-            question: "Can all student use Slelinks?",
-            answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora sapiente esse quis quam ratione natus?"
+            question: "Can I connect with lecturers?",
+            answer: "Yes, you can"
+        },
+        {
+            id: 6,
+            question: "Ready to get started?",
+            answer: "Join Slelinks now to experience school with other people. It's simple, fast and seamless."
         }
     ]
 
