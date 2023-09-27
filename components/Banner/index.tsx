@@ -15,7 +15,7 @@ const Banner = () => {
             <div className={ styles["banner__content__text"] }>
                 <div>
                 <h1>Ready to get started?</h1>
-                  <p>You have seen the process now. It's simple, fast and seamless to get onboarded, all in less than 2 minutes. Get started now to efficiently find local service men for all your needs</p>
+                  <p>Join Slelinks now to experience school with other people. It's simple, fast and seamless.</p>
                   <div className={ styles["banner__content__text--button"] }>
                     <Link href=''>Create a free account</Link>
                   </div>

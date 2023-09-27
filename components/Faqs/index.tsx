@@ -28,11 +28,6 @@ const Faqs = () => {
             id: 5,
             question: "Can I connect with lecturers?",
             answer: "Yes, you can"
-        },
-        {
-            id: 6,
-            question: "Ready to get started?",
-            answer: "Join Slelinks now to experience school with other people. It's simple, fast and seamless."
         }
     ]
 

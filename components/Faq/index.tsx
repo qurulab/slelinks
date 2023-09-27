@@ -49,7 +49,7 @@ const SingleFaq: React.FC<faqProps> = ({ faq }) => {
                     onClick={ handleClick }
                    />  
             }
-        </div>
+            </div>
         </div>
         { showDetails ? <p>{ answer }</p> : null }
        </div>
