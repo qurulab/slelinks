@@ -1,0 +1,46 @@
+@import "../../styles/abstracts/_variables";
+
+.users__categories{
+    padding: 4rem 0;
+
+    &__header{
+        max-width: 550px;
+        h1{
+            text-transform: capitalize;
+            font-family: $font-bold;
+            padding-bottom: .7rem;
+            font-weight: 900;
+            line-height: 1.5;
+        }
+        p{
+            line-height: 2;
+        }
+    }
+
+    &__tabs{
+        background: $col-primary;
+        border-radius: 6px;
+        color: #FFF;
+        padding: .7rem .8rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 30px;
+        margin-bottom: 4rem;
+        margin-top: 2rem;
+        align-items: center;
+
+        &__item{
+            cursor: pointer;
+            text-align: center;
+
+            &--active{
+                background-color: $col-secondary;
+                text-align: center;
+                color: $col-white;
+                padding: .7rem .5rem;
+                border-radius: 6px;
+                cursor: pointer;
+            }
+        }
+    }
+}

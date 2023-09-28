@@ -5,8 +5,7 @@ import UsersProcess from "@/components/UsersProcess";
 // import FeaturedListings from "@/components/FeaturedListings";
 // import PopularListings from "@/components/PopularListings";
 // import GetStarted from "@/components/GetStarted";
-import ForBusinesses from "@/components/ForBusinesses";
-import ForCustomers from "@/components/ForCustomers";
+import UsersCategory from "@/components/UsersCategory";
 // import Categories from "@/components/Categories";
 import Faqs from "@/components/Faqs";
 import Banner from "@/components/Banner";
@@ -25,11 +24,10 @@ export default function Home() {
       <Herosection />
       <UsersProcess />
       {/* <Intro /> */}
-      <ForBusinesses />
+      <UsersCategory />
       {/* <FeaturedListings />
       <PopularListings /> */}
       {/* <GetStarted /> */}
-      <ForCustomers />
       {/* <Categories /> */}
       <Faqs />
       <Banner />
