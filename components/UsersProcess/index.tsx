@@ -1,7 +1,9 @@
 import React from 'react'
 import styles from "./process.module.scss"
-import { MdManageAccounts, MdReviews } from 'react-icons/md'
-import { BiSearchAlt } from "react-icons/bi"
+import { MdManageAccounts, MdReviews, MdNotificationsActive } from 'react-icons/md'
+import { BiSearchAlt, BiGroup } from "react-icons/bi"
+import { PiStudentDuotone } from "react-icons/pi"
+import { GiShare } from 'react-icons/gi'
 
 const UsersProcess = () => {
   return (
@@ -23,7 +25,7 @@ const UsersProcess = () => {
                 </div>
                 <div className={ styles["process__grid__item"] }>
                     <div className={ styles["process__grid__item--icon--icon2"] }>
-                        <BiSearchAlt />
+                        <PiStudentDuotone />
                     </div>
                     <div className={ styles["process__grid__item--text"] }>
                         <h5>Learn</h5>
@@ -31,7 +33,7 @@ const UsersProcess = () => {
                     </div>
                 </div>
                 <div className={ styles["process__grid__item"] }>
-                    <div className={ styles["process__grid__item--icon--icon2"] }>
+                    <div className={ styles["process__grid__item--icon--icon3"] }>
                         <BiSearchAlt />
                     </div>
                     <div className={ styles["process__grid__item--text"] }>
@@ -40,8 +42,8 @@ const UsersProcess = () => {
                     </div>
                 </div>
                 <div className={ styles["process__grid__item"] }>
-                    <div className={ styles["process__grid__item--icon--icon2"] }>
-                        <BiSearchAlt />
+                    <div className={ styles["process__grid__item--icon--icon4"] }>
+                        <BiGroup />
                     </div>
                     <div className={ styles["process__grid__item--text"] }>
                         <h5>Build & join Communities</h5>
@@ -49,8 +51,8 @@ const UsersProcess = () => {
                     </div>
                 </div>
                 <div className={ styles["process__grid__item"] }>
-                    <div className={ styles["process__grid__item--icon--icon2"] }>
-                        <BiSearchAlt />
+                    <div className={ styles["process__grid__item--icon--icon1"] }>
+                        <MdNotificationsActive />
                     </div>
                     <div className={ styles["process__grid__item--text"] }>
                         <h5>Timely Notifications</h5>
@@ -58,8 +60,8 @@ const UsersProcess = () => {
                     </div>
                 </div>
                 <div className={ styles["process__grid__item"] }>
-                    <div className={ styles["process__grid__item--icon--icon3"] }>
-                        <MdReviews />
+                    <div className={ styles["process__grid__item--icon--icon6"] }>
+                        <GiShare />
                     </div>
                     <div className={ styles["process__grid__item--text"] }>
                         <h5>Share</h5>

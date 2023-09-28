@@ -10,6 +10,7 @@
   display: flex;
   align-items: center;
   top: 0;
+  font-family: $font !important;
   z-index: 999 !important;
 
   &__content {
@@ -33,7 +34,7 @@
         color: #fff;
         text-decoration: none;
         font-size: 0.95rem;
-        font-family: "Satoshi", sans-serif;
+        // font-family: "Satoshi", sans-serif;
       }
 
       &__left {
