@@ -82,10 +82,10 @@
       &--text {
         h5 {
           font-family: $font-bold;
-          font-weight: bold;
-          font-size: .95rem;
+          font-weight: bolder !important;
+          font-size: 1.1rem;
           color: $col-dark;
-          text-transform: uppercase;
+          text-transform: capitalize;
         }
         p {
           font-size: 0.95rem;
