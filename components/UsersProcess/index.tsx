@@ -10,7 +10,7 @@ const UsersProcess = () => {
     <div className={ styles["process"] }>
         <div className="container">
             <div className={ styles["process__header"] }>
-                <h1>Don't be bored, Enjoy your Schooling!</h1>
+                <h1>What Can You Do With Slelinks App?</h1>
                 <p>Discover students, lecturers and alumni in your school. Slelinks app makes your learning and school experience fun.</p>
             </div>
             <div className={ styles["process__grid"] }>

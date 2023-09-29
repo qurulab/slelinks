@@ -15,7 +15,7 @@
     h1 {
       font-family: $font-bold;
       text-transform: capitalize;
-      font-weight: bold;
+      font-weight: bolder;
     }
     p {
       font-size: 1.03rem;
@@ -82,9 +82,10 @@
       &--text {
         h5 {
           font-family: $font-bold;
-          font-size: 1.08rem;
+          font-weight: bold;
+          font-size: .95rem;
           color: $col-dark;
-          text-transform: capitalize;
+          text-transform: uppercase;
         }
         p {
           font-size: 0.95rem;

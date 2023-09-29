@@ -21,8 +21,8 @@ const UsersCategory = () => {
                 <p>Whether you are a student entrepreneur looking to reach more audience or a student looking to have more fun, we have got you covered</p>
             </div>
             <div className={ styles["users__categories__tabs"] }>
-                <div onClick={ () => handleToggle(1) }  className={ toggleState === 1 ? styles["users__categories__tabs__item--active"] : styles["users__categories__tabs__item"] }>For Businesses</div>
-                <div onClick={ () => handleToggle(2) } className={ toggleState === 2 ? styles["users__categories__tabs__item--active"] : styles["users__categories__tabs__item"] }>For Students</div>
+                <div onClick={ () => handleToggle(1) }  className={ toggleState === 1 ? styles["users__categories__tabs__item--active"] : styles["users__categories__tabs__item"] }>Opportunities</div>
+                <div onClick={ () => handleToggle(2) } className={ toggleState === 2 ? styles["users__categories__tabs__item--active"] : styles["users__categories__tabs__item"] }>Stay Informed</div>
             </div>
         </div>
         <div className={ styles["users__categories__contents"] }>
