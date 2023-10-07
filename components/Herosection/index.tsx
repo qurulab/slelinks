@@ -21,7 +21,7 @@ const Herosection = () => {
                     <div className={ styles["herosection__content__details__left"] }>
                         <div>
                             <h1>Do More with Slelinks</h1>
-                            <p>Slelinks is a social ed-tech platform for students, lecturers and alumni to connect, learn and share. Experience school and education with others.</p>
+                            <p>Slelinks is a social edu-tech platform for students, graduates, lecturers and professionals of diverse fields to commune, connect, learn, enhance and share knowledge, expertise and experiences.</p>
                             <div className={ styles["herosection__content__details__left__buttons"] }>
                                 <Image src={ google } alt='Google svg' />
                                 <Image src={ apple } alt='Apple svg' />
