@@ -4,7 +4,7 @@ import React from 'react'
 import styles from "./navbar.module.scss"
 import Link from 'next/link'
 import Image from "next/image"
-import logo from "../../public/assets/images/slelinks-logo.svg"
+import logo from "../../public/assets/images/slelinks.svg"
 import darkLogo from "../../public/assets/images/leaseflow_log_white.png"
 import { BiMenuAltLeft, BiMinusCircle } from "react-icons/bi"
 import { useState, useEffect } from "react"
@@ -66,7 +66,7 @@ const Navbar: React.FC<navbarProps> = ({
         <div className="container">
             <div className={ styles["navbar__content"] }>
                 <div className={ styles["navbar__content__logo"] }>
-                    <Link href="/"><Image height={50} src={ logo } alt='Leaseflow logo'/></Link>
+                    <Link href="/"><Image height={30} src={ logo } alt='Leaseflow logo'/></Link>
                 </div>
                 <div onClick={ toggleNavbar } className={ styles["navbar__content__menu"] }>
                     { showNavbar ? <BiMinusCircle fill={ type === "dark" ? '#FFF' : "#fff" } size="2rem" /> : <BiMenuAltLeft fill={ navbar === true ? '#FFF' : "#fff" } size="2rem" /> }
@@ -80,6 +80,7 @@ const Navbar: React.FC<navbarProps> = ({
                         <div className={ styles["navbar__content__details__left--links"] }>
                             <li><Link href="">Home</Link></li>
                             <li><Link href="">Blog</Link></li>
+                            <li><Link href="/privacy">Privacy Policy</Link></li>
                             <li><Link href="">FAQ</Link></li>
                         </div>
                     </div>
