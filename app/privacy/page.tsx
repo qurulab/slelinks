@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from "./privacy.module.scss"
 import Navbar from '@/components/Navbar'
+import Banner from '@/components/Banner'
+import Footer from '@/components/Footer'
 
 const Privacy = () => {
   return (
@@ -98,7 +100,7 @@ const Privacy = () => {
 
       <div className={ styles["privacy__personalData"] }>
         <h1>THE PERSONAL DATA WE COLLECT AS YOU USE OUR SERVICE</h1>
-        <p>We use the following to collect Personal Data from You:</p><br />
+        <p>We use the following to collect Personal Data from You:</p>
         <p>Cookies: We use the data collected by the cookies to offer You the best experience on our Application. Cookies are information stored on Your browser when You visit our Application or use a social network with Your PC, Smartphone, or Tablet. They contain various data which includes the name of the server from which it comes, the numeric identifier, etc. The types of cookies we use are as follows:</p>
         <div className={ styles["privacy__personalData__details"] }>
           <div className={ styles["privacy__personalData__details--item"] }>
@@ -223,6 +225,9 @@ const Privacy = () => {
         <p>We reserve the right to modify and revise this Privacy Policy from time to time without Your explicit consent. If we make any fundamental changes, we will notify You and obtain Your consent to the revised version.</p>
       </div>
      </div>
+
+     <Banner />
+     <Footer />
     </div>
   )
 }
