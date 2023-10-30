@@ -88,7 +88,7 @@ const Navbar: React.FC<navbarProps> = ({
                     <div className={ styles["navbar__content__details__right"] }>
                         <div className={ styles["navbar__content__details__right--links"] }>
                             {/* <li><Link href="/auth/sign-in" className={ type === "dark" ? styles["navbar__content__details__right--links--login"] : styles["navbar__content__details__right--links--login--light"] }>Sign In</Link></li> */}
-                            <li><Link href="/auth/sign-up" className={ styles["navbar__content__details__right--links--register"] }>Create an account</Link></li>
+                            <li><Link href="https://www.slelinks.com/auth/sign-up" className={ styles["navbar__content__details__right--links--register"] }>Create an account</Link></li>
                         </div>
                     </div>
                 </div>
