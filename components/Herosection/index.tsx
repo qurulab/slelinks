@@ -6,6 +6,9 @@ import Image from 'next/image'
 import hero__img from "../../public/assets/images/slelinks mockup.png"
 import google from "../../public/assets/images/google.svg"
 import apple from "../../public/assets/images/apple.svg"
+import { FcGoogle } from "react-icons/fc"
+import { AiFillApple } from "react-icons/ai"
+import Link from 'next/link'
 // import Info from '../Info'
 
 const Herosection = () => {
@@ -23,8 +26,14 @@ const Herosection = () => {
                             <h1>Do More with Slelinks</h1>
                             <p>Slelinks is a social edu-tech platform for students, graduates, lecturers and professionals of diverse fields to commune, connect, learn, enhance and share knowledge, expertise and experiences.</p>
                             <div className={ styles["herosection__content__details__left__buttons"] }>
-                                <Image src={ google } alt='Google svg' />
-                                <Image src={ apple } alt='Apple svg' />
+                                {/* <Image src={ google } alt='Google svg' /> */}
+                                <div className={ styles["herosection__content__details__left__buttons--andriod"] }>
+                                    <Link href="https://play.google.com/store/apps/details?id=com.slelinks.slelinks&pcampaignid=web_share"><FcGoogle />&nbsp; Get on Google Playstore</Link>
+                                </div>
+                                <div className={ styles["herosection__content__details__left__buttons--ios"] }>
+                                    <AiFillApple />&nbsp; Coming Soon
+                                </div>
+                                {/* <Image src={ apple } alt='Apple svg' /> */}
                             </div>
                         </div>
                     </div>
