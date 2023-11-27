@@ -31,7 +31,7 @@ const Herosection = () => {
                                     <Link href="https://play.google.com/store/apps/details?id=com.slelinks.slelinks&pcampaignid=web_share"><FaGooglePlay />&nbsp; Get on Google Playstore</Link>
                                 </div>
                                 <div className={ styles["herosection__content__details__left__buttons--ios"] }>
-                                    <AiFillApple />&nbsp; Coming Soon
+                                    <Link href="https://apps.apple.com/app/slelinks/id6471399868"><AiFillApple />&nbsp; Get on iOS Store</Link>
                                 </div>
                                 {/* <Image src={ apple } alt='Apple svg' /> */}
                             </div>
