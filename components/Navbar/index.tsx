@@ -82,6 +82,7 @@ const Navbar: React.FC<navbarProps> = ({
                             {/* <li><Link href="">Blog</Link></li> */}
                             <li><Link href="/privacy">Privacy Policy</Link></li>
                             <li><Link href="">FAQ</Link></li>
+                            <li><Link href="/csae">CSAE</Link></li>
                         </div>
                     </div>
 
